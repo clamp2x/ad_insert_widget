@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget version="0.2">
+    <title xml:lang="ko">광고 삽입 위젯</title>
+	<description xml:lang="ko">원하는 곳에 광고 코드를 넣을 수 있는 위젯입니다.</description>
+    <version>0.1</version>
+    <date>2020-10-25</date>
+    <author email_address="clamp2x@gmail.com" link="https://studyforus.com">
+        <name xml:lang="ko">clamp2x</name>
+    </author>
+    <extra_vars>
+        <group>
+            <title xml:lang="ko">설정1</title>
+            <var id="config_1" type="text">
+                <name xml:lang="ko">설정1</name>
+            </var>
+            <var id="설정2" type="textarea">
+                <name xml:lang="ko">설정2</name>
+                <description xml:lang="ko">설정2 textarea</description>
+            </var>
+            <var id="select" type="select">
+	    		    	<name xml:lang="ko">선택</name>
+    		    		<options>
+    		    			<value>Y</value>
+		        			<name xml:lang="ko">Y</name>
+	    			    </options>
+    	    			<options>
+	        				<value>N</value>
+	    	    			<name xml:lang="ko">N</name>
+        				</options>
+      			</var>
+	    </group>
+    </extra_vars>
+</widget>
