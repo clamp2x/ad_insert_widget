@@ -9,25 +9,26 @@
     </author>
     <extra_vars>
         <group>
-            <title xml:lang="ko">설정1</title>
-            <var id="config_1" type="text">
-                <name xml:lang="ko">설정1</name>
+            <title xml:lang="ko"></title>
+            <var id="exclude_mid" type="text">
+                <name xml:lang="ko">제외할 mid 값</name>
+                <description xml:lang="ko">제외할 mid 값을 입력하세요. 여러 값인 경우 띄어쓰기로 구분합니다.</description>
             </var>
-            <var id="설정2" type="textarea">
-                <name xml:lang="ko">설정2</name>
-                <description xml:lang="ko">설정2 textarea</description>
+            <var id="adcode" type="textarea">
+                <name xml:lang="ko">광고코드</name>
+                <description xml:lang="ko">광고코드 전체를 입력하세요.</description>
             </var>
             <var id="select" type="select">
-	    		    	<name xml:lang="ko">선택</name>
-    		    		<options>
-    		    			<value>Y</value>
-		        			<name xml:lang="ko">Y</name>
-	    			    </options>
-    	    			<options>
-	        				<value>N</value>
-	    	    			<name xml:lang="ko">N</name>
-        				</options>
-      			</var>
+	    		<name xml:lang="ko">중앙정렬 사용여부</name>
+    		    	<options>
+    		    		<value>Y</value>
+		        		<name xml:lang="ko">사용</name>
+	    		    </options>
+    	    		<options>
+	        			<value>N</value>
+	    	    		<name xml:lang="ko">사용</name>
+        			</options>
+      		</var>
 	    </group>
     </extra_vars>
 </widget>
