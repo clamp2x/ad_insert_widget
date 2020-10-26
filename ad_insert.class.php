@@ -15,9 +15,9 @@
             $logged_info = Context::get('logged_info');
             $member_srl = $logged_info->member_srl;
             if(!$member_srl) return;
-
+            
             #템플릿 설정
-            Context::set('widget_info', $widget_info);
+            Context::set('adcode', $adcode);
 		
             $tpl_path = sprintf('%sskins/%s', $this->widget_path, $args->skin);
             Context::set('colorset', $args->colorset);
